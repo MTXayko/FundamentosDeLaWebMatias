@@ -5,8 +5,8 @@
 
 
 <!-- encabezado
-es el stand que da tamaño y linea a caracteres
-
-
-
+es el stand que da tamaño y linea a caracteres (palabras,,numeros,simbolos)
 >
+
+<!-- hipervinculos -->
+<h1>rff</h1>
