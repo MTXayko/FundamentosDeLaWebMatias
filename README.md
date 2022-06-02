@@ -5,7 +5,7 @@
 
 
 <!-- encabezado
-es el stand que da tamaño y linea a 
+es el stand que da tamaño y linea a caracteres
 
 
 
