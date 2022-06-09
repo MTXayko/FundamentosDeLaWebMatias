@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
-    <h1>Registration Form</h1>
+<html lang="es">
+<head>
+    <title><h1>Registration Form</h1></title>
+</head>
+<body>
     <form action="/process" method="post">
         <div>
             <label>First Name:*</label>
@@ -29,7 +32,8 @@
             <label>Birthday:</label>
             <input type="date">
         </div>
-    <h2>Gender identity:</h2>
+    </form>
+        <h2>Gender identity:</h2>
         <div>
             <input type="radio">Male
             <input type="radio">Female
@@ -37,25 +41,19 @@
             <input type="radio">I prefer not a answer
         </div>
         <div>
-        <h3>A short description about myself:</h3>
-        <textarea name="comment" cols="30" rows="8"></textarea>
+            <h3>A short description about myself:</h3>
+            <textarea name="comment" cols="30" rows="8"></textarea>
         </div>
-        <div>
-            <h2>Favorite Language:
-                <select name="snack">
-                <option>Javascript</option>
-                <option>HTML</option>
-                <option>CSS</option>
-            </h2>
-        </div>
-        <div>
+        <h2>
+            Favorite Language:
+        </h2>
+        <select name="snack">
+            <option>Javascript</option>
+            <option>HTML</option>
+            <option>CSS</option>
         <input type="checkbox">Yes,I would like to receive periodic email updates
-        </div>
-        <div>
-            <input type="submit" value="Create Account">
-        </div>
+        <input type="submit" value="Create Account">
         
         <h3>*Indicates a required field</h3>
-    </form>
-
+</body>
 </html>
